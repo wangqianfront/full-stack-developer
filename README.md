@@ -7,7 +7,7 @@ To me, a Full Stack Developer is someone with familiarity in each layer, if not 
 
 **Good developers who are familiar with the entire stack know how to make life easier for those around them.** This is why I’m so against silos in the work place. Sure, politics and communication challenges get in the way in large organizations. I think the point Facebook is going for with their hiring policy is, if smart people use their heads and their hearts, a better product gets built in less time.
 
-##### **layers of the full stack:**
+### **LAYERS OF THE FULL STACK:**
 
 1. **Server, Network, and Hosting Environment.**
   - This involves understanding what can break and why, taking no resource for granted.
