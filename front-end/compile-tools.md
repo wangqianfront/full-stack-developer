@@ -20,7 +20,7 @@
   1. karma
   2. selenium-webdriver (js: webdriver)
 
-*代码规范
+* 代码规范
 
   1. jshint
 
