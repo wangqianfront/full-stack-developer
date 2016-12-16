@@ -158,7 +158,6 @@ I’m not sure you can call yourself a full stack developer until you have worke
 #### 前端UI设计师必去的几个网站：Dribbble，awwwards，unmatchedstyle，UIMaker
 
   - Mozilla 开发者中心：https://developer.mozilla.org/en-US/
-
   - 图标资源：IcoMoon（我的最爱），Themify Icons，FreePik，Glyphiconsart
   - Dialog:非常漂亮的对话框
   - AdminLTE：github上的一个开源项目，基于Boostrap3的后台管理页面框架
@@ -242,21 +241,20 @@ I’m not sure you can call yourself a full stack developer until you have worke
 
 Cobar：阿里巴巴的MySql分布式中间件
 
-C & C++
+### **C & C++**
+1. Thrift:用来进行可扩展且跨语言的服务的开发(类似的还有个Avro，Google protobuf)。
 
-Thrift:用来进行可扩展且跨语言的服务的开发(类似的还有个Avro，Google protobuf)。
+2. libevent:是一个事件触发的网络库，适用于windows、linux、bsd等多种平台，内部使用select、epoll、kqueue等系统调用管理事件机制。（对了还有个libev呢）
 
-libevent:是一个事件触发的网络库，适用于windows、linux、bsd等多种平台，内部使用select、epoll、kqueue等系统调用管理事件机制。（对了还有个libev呢）
+3. Boost:不多说了，准C++标准库
 
-Boost:不多说了，准C++标准库
+4. Ptmalloc\Valgrind\Purify
 
-Ptmalloc\Valgrind\Purify
+5. NetworkServer架构：acceptor->dispatcher->worker(这个不算工具哦)
 
-NetworkServer架构：acceptor->dispatcher->worker(这个不算工具哦)
+6. breakpad:崩溃转储和分析模块，很多crashreport会用到
 
-breakpad:崩溃转储和分析模块，很多crashreport会用到
-
-UI界面相关：MFC、BCG和QT这类的就不说了，高端一点的还有Html和DirectUI技术：libcef（基于chrome内核的，想想使用html5开发页面，还真有点小激动呢）、HtmlLayout、Duilib、Bolt，非C++的，还有node-webkit也不错，集成了node和webkit内核。
+7. UI界面相关：MFC、BCG和QT这类的就不说了，高端一点的还有Html和DirectUI技术：libcef（基于chrome内核的，想想使用html5开发页面，还真有点小激动呢）、HtmlLayout、Duilib、Bolt，非C++的，还有node-webkit也不错，集成了node和webkit内核。
 
 ### **游戏开发相关**
 
